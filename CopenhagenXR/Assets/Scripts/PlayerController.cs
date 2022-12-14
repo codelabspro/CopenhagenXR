@@ -21,4 +21,9 @@ public class PlayerController : MonoBehaviour
             body.AddForce(Vector2.up * force);
        }
     }
+
+    private void onTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("Game Over");
+    }
 }

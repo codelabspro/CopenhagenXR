@@ -200,7 +200,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 848937024}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.9, y: -1.06, z: -20.84}
+  m_LocalPosition: {x: 3.3, y: -1.06, z: -20.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -362,7 +362,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5785941262547125536, guid: 291fbabb263b841e5b66817203f4db7a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5785941262547125536, guid: 291fbabb263b841e5b66817203f4db7a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -370,7 +370,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5785941262547125536, guid: 291fbabb263b841e5b66817203f4db7a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5785941262547125536, guid: 291fbabb263b841e5b66817203f4db7a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -404,6 +404,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle
       objectReference: {fileID: 0}
+    - target: {fileID: 5785941262547125549, guid: 291fbabb263b841e5b66817203f4db7a, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5785941262547125549, guid: 291fbabb263b841e5b66817203f4db7a, type: 3}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 291fbabb263b841e5b66817203f4db7a, type: 3}
 --- !u!1001 &8619996771969931119
@@ -413,13 +421,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8619996772858794304, guid: 6c132e868fc664ef0b600c644fe2a814, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8619996772858794305, guid: 6c132e868fc664ef0b600c644fe2a814, type: 3}
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8619996772858794305, guid: 6c132e868fc664ef0b600c644fe2a814, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8619996772858794305, guid: 6c132e868fc664ef0b600c644fe2a814, type: 3}
       propertyPath: m_LocalPosition.y
