@@ -8,7 +8,7 @@ public class ObstacleSpawnController : MonoBehaviour
     public float spawnLocation = 10;
     public GameObject obstacle;
 
-    [Header]("timer")]
+    [Header("timer")]
     public float spawnTime = 2;
     private float timer;
 
@@ -26,7 +26,7 @@ public class ObstacleSpawnController : MonoBehaviour
         {
             timer = spawnTime;
             var height = Random.Range(-spawnRange, spawnRange);
-            GameObject.Instantiate(obstacle, new Vector3(spawnLocation, height, 0), Quaternion.Identity);
+            GameObject.Instantiate(obstacle, new Vector3(spawnLocation, height, 0), Quaternion.identity);
         }        
     }
 }
