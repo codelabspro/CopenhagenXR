@@ -26,7 +26,10 @@ public class ObstacleMoverControl : MonoBehaviour
 
         if (this.transform.position.x < offScreenPosition) 
         {
-            Destroy(this.gameObject);
+            if (this.gameObject != null) 
+            {
+                Destroy(this.gameObject);
+            }
         }
     }
 }

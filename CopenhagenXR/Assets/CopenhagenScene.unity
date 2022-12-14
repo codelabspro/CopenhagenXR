@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &492875509 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5785941262547125540, guid: 291fbabb263b841e5b66817203f4db7a, type: 3}
-  m_PrefabInstance: {fileID: 5785941262110634999}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &848937024
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,8 +238,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRange: 5
   spawnLocation: 10
-  obstacle: {fileID: 492875509}
-  spawnTime: 1
+  obstacle: {fileID: 5785941262547125540, guid: 291fbabb263b841e5b66817203f4db7a, type: 3}
+  spawnTime: 2
 --- !u!4 &2004980895
 Transform:
   m_ObjectHideFlags: 0
